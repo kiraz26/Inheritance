@@ -9,7 +9,7 @@ public class EmployeesWithDepartments {
 		Department ITDepartment = new Department(10, "IT");
 
 		ASD.setDepartment(ITDepartment);
-		//print Halil's department id and name
+		//print ASD's department id and name
 		System.out.println(ASD.getDepartment().getDepartment_id()+" "+ASD.getDepartment().getDepartmentName());
 		
 	}
