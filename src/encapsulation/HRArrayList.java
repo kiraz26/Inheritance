@@ -14,9 +14,9 @@ public class HRArrayList {
 		
 		//ArrayList<Employee> employeesStr = new ArrayList<>();
 		
-		employees.add(new Employee(31, "Halil", "Kiraz", 100000.0));
-		employees.add(new Employee(26, "Talha", "Erturk", 135000.0));
-		employees.add(new Employee(23, "Emrah", "Filiz", 120000.0));
+		employees.add(new Employee(31, "ASD", "ASd", 100000.0));
+		employees.add(new Employee(26, "dfgh", "fdfdf", 135000.0));
+		employees.add(new Employee(23, "gfgs", "sdf", 120000.0));
 		
 		// increase Emrah's salary by 1000
 		double newSalary = employees.get(2).getSalary()+5000;

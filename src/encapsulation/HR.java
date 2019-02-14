@@ -9,10 +9,10 @@ public class HR {
 		// Array of Employee Object
 
 		Employee[] employees = new Employee[3];
-		Employee emp = new Employee(31, "Halil", "Kiraz", 100000.0);
+		Employee emp = new Employee(31, "sdfs", "fdhfh", 100000.0);
 		employees[0] = emp;
-		employees[1] = new Employee(26, "Talha", "Erturk", 135000.0);
-		employees[2] = new Employee(23, "Emrah", "Filiz", 120000.0);
+		employees[1] = new Employee(26, "SDF", "HAHA", 135000.0);
+		employees[2] = new Employee(23, "ASD", "GDS", 120000.0);
 
 		// Print the name and salary of first employee in the employees array
 		System.out.println("First Name: " + emp.getFirstName() + " Last Name: " + emp.getLastName() + "\nSalary: "
